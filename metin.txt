@@ -1,2 +1,5 @@
 personel ekleme ekranı tasarımı
 
+<div>
+  <h2>Lale soyupek</h2>
+</div>
