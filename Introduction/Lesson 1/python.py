@@ -1,4 +1,5 @@
 # yorum satırı, bu alan derlenmeyecek
+# 
 
 # alt + z -> wordwarp -> satırı alta kaydır.
 
@@ -64,7 +65,6 @@ print(firstname + " " + lastname)
 
 # Mantıksal veri tipi
 result = True
-
 print(result)
 
 retVal = 10>2
@@ -73,3 +73,6 @@ print(retVal)
 # /n -> alt satıra geçirir
 
 help(print)
+
+# 500 kez satırı yazdırır.
+print("Tatili çok seviyorum\n"*500)
