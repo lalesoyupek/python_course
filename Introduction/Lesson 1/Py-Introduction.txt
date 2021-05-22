@@ -1,9 +1,0 @@
-VARIABLE
-
-Number    : int - long - float - complex
-String    : 
-List      : içerisinde birden çok data
-Tuple     : Sadece okunabilir, üzerine data eklenemez
-Dictonary : JSON formatında data tutar.
-
-

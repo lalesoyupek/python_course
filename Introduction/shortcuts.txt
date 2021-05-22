@@ -1,0 +1,15 @@
+# alt + z -> wordwarp -> satırı alta kaydır.
+# /n -> alt satıra geçirir
+# yazdığnız kodları düzenlemek için Shift + cmd + f => for mac
+# yazdığnız kodları düzenlemek için Shift + alt + f => for windows
+
+# ctrl + k + c   => seçili alanı yorum satırına alır
+# ctrl + k + u   => seçili alanı yorum satırını kaldırır
+# alt + shit + f => kodları düzenler
+# alt + z        => wordwrap (ekranın sonundaki satırı, bir alt satıra alır)
+
+
+# cmd + k + c       => yorum satırı yapar
+# cmd + k + u       => yorum satırı kaldırır
+# opt + shift + f   => kodları düzenler
+# opt + z           => wordwrap ekranın sonundaki satırı bir alt satıra alır
