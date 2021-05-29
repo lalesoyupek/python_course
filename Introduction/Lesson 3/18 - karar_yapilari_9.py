@@ -18,6 +18,8 @@
 # Yapılan İndirim Oranı         :
 # Toplam Ödemeniz Gereken Tutar : 
 
+
+
 siparis_adedi   = int(input("Sipariş Adedini giriniz: "))
 birim_fiyat     = 5
 indirim_orani   = 0
@@ -42,3 +44,68 @@ try:
     print("Yapılan indirim sonrası ödenecek tutar: " , siparis_adedi * birim_fiyat * (1 - indirim_orani))  
 except Exception as ex:
     print(ex)
+
+
+import os ## operation system kütüphanesi
+os.system('clear') # ekrandaki sistem yazılarını siler
+
+
+
+################################################
+
+import os
+os.system('cls')  # mac kullanıcıları os.system('clear') yazmaları yeterlidir
+
+print("""
+********************************************* Kitap Otomasyonu Sistemine Hoşgeldiniz *******************************************
+*                                                                                                                              *
+*                                                                                                                              *
+*                                                                                                                              *
+*                                                                                                                              *
+*                                                  Bilge Adam Python Dersleri                                                  *
+*                                                                                                                              *
+*                                                                                                                              *
+*                                                                                                                              *
+*                                                                                                                              *
+******************************************************************************************************************************** """)
+
+
+try:
+    adet = int(input('lütfen sipariş adedi giriniz : '))
+    if adet > 0:
+        birim_fiyat = 5
+        toplam = 0
+        indirim = ""
+        result = """
+Verilen Sipariş Adedi         : {0}
+Adet Birim Fiyatı             : {1}$
+Tolam Tutar                   : {2}$
+Yapılan İndirim Oranı         : %{3}
+Toplam Ödemeniz Gereken Tutar : {4}$ 
+        """
+        if adet <= 10:
+            indirim = "0"
+            toplam = birim_fiyat * adet
+        elif adet <= 20:
+            indirim = "5"
+            toplam = (birim_fiyat * adet) * 0.95
+        elif adet <= 50:
+            indirim = "10"
+            toplam = (birim_fiyat * adet) * 0.90
+        elif adet <= 80:
+            indirim = "15"
+            toplam = (birim_fiyat * adet) * 0.85
+        elif adet <= 100:
+            indirim = "20"
+            toplam = (birim_fiyat * adet) * 0.80
+        else:
+            indirim = "25"
+            toplam = (birim_fiyat * adet) * 0.75
+        result = result.format(
+            adet, birim_fiyat, (birim_fiyat * adet), indirim, toplam)
+    else:
+        result = 'Minimum Sipariş Adedi 1 Olmalıdır.'
+    print(result)
+except Exception as err: 
+    os.system('cls') 
+    print("\033[1;31;40m", err) 
