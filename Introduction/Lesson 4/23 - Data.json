@@ -1,0 +1,40 @@
+[
+    {
+        "Kategoriler": [
+            {
+                "CategoryID": 1,
+                "CategoryName": "Beverages",
+                "Description": "Soft Tea",
+                "Products": [
+                    {
+                        "ProductId": 1,
+                        "ProductName": "KAlem",
+                        "Price": 5.0
+                    },
+                    {
+                        "ProductId": 2,
+                        "ProductName": "KAlem",
+                        "Price": 5.0
+                    }
+                ]
+            },
+            {
+                "CategoryID": 2,
+                "CategoryName": "Beverages",
+                "Description": "Soft Tea",
+                "Products": [
+                    {
+                        "ProductId": 1,
+                        "ProductName": "KAlem",
+                        "Price": 5.0
+                    },
+                    {
+                        "ProductId": 2,
+                        "ProductName": "KAlem",
+                        "Price": 5.0
+                    }
+                ]
+            }
+        ]
+    }
+]
